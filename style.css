@@ -1,0 +1,20 @@
+.Trigger{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border: 10px solid rgb(80, 79, 79);
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(44, 134, 82);
+    transition: transform 300ms ease-in-out;
+    pointer-events: none;
+}
+
+.Trigger:hover .Box{
+    transform: translate(200px, 150px) rotate(60deg);
+}
