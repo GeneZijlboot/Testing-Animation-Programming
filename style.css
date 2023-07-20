@@ -3,7 +3,6 @@
     width: 200px;
     background-color: gray;
     border: 10px solid rgb(80, 79, 79);
-    border-radius: 10px;
     cursor: pointer;    
 }
 
@@ -17,4 +16,4 @@
 
 .Trigger:hover .Box{
     transform: translate(200px, 150px) rotate(60deg);
-}
+}                   
